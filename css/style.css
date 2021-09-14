@@ -14,10 +14,13 @@ body{
 
 header{
 background-color: white;
-
 }
 
 header img{
+  vertical-align: middle;
+}
+
+header strong{
   vertical-align: middle;
 }
 
@@ -48,13 +51,14 @@ main{
   padding: 10px 0;
 }
 
-.Add{
+.add{
   padding: 3px;
   border-radius: 5px;
   border: 1px solid black;
+  cursor: pointer;
 }
 
-.Task{
+.task{
   color: white;
   background-color:turquoise;
 }
